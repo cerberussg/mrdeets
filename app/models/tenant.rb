@@ -44,7 +44,4 @@ class Tenant < ApplicationRecord
       Member.create_org_admin(user)
       #
     end
-
-    def tenant_params
-
 end
