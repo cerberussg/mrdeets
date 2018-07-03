@@ -9,14 +9,8 @@
 
     <%= stylesheet_link_tag "application", :media => "all" %>
     <%= javascript_include_tag "application" %>
-
-    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-    <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js" type="text/javascript"></script>
-    <![endif]-->
   </head>
   <body>
-
     <div class="navbar navbar-default navbar-static-top">
       <div class="container">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
@@ -29,7 +23,7 @@
           <ul class="nav navbar-nav">
             <% if current_user %>
             <li>
-              <%= link_to "<i class='fa fa-users'></li> Add Members".html_safe,
+              <%= link_to "<i class='fa fa-users'></i> Add Members".html_safe,
                           new_member_path,
                           class: 'navbar-link btn btn-primary' %>
             </li>

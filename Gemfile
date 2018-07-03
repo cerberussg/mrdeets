@@ -15,7 +15,9 @@ gem 'dotenv-rails', '~> 2.5'
 gem 'devise', '~> 4.4', '>= 4.4.3'
 gem 'milia', '~> 1.3', '>= 1.3.1'
 gem 'twitter-bootstrap-rails', '~> 4.0'
-gem 'devise-bootstrap-views', :git => 'https://github.com/hisea/devise-bootstrap-views.git', :branch => 'bootstrap4'
+gem 'devise-bootstrap-views'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
