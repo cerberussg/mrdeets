@@ -18,6 +18,7 @@ gem 'twitter-bootstrap-rails', '~> 4.0'
 gem 'devise-bootstrap-views'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
+gem 'bootstrap-datepicker-rails', '~> 1.8', '>= 1.8.0.1'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
